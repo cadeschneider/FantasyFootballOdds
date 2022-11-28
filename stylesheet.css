@@ -1,0 +1,26 @@
+body {
+    
+    display: grid;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.roster {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.playerInfo {
+    background-color: blue;
+}
+
+.removeBtn {
+    background-color: red;
+}
+
+.playerStatus {
+    background-color: green;
+}
